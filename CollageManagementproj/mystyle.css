@@ -1,0 +1,131 @@
+*{
+ margin:0px;
+    padding: 0px;
+}
+body
+{
+
+ background-image: url(car1.jpg);
+    background-size: cover;
+    
+   
+}
+
+/**to add back ground colour in list**/
+.full
+{
+    list-style-type: none;
+   
+ overflow: hidden;
+    background-color: royalblue;
+    
+    
+}
+li
+{
+     display: block;
+    float: left;
+   margin: auto;
+    
+    
+}
+li a {
+  display: inline;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  
+  text-decoration: underline;
+}
+a:active {
+  color: yellow;
+  
+  text-decoration: underline;
+}
+.raka1
+{
+ float:right;
+    background-color: rebeccapurple;
+    position: relative;
+    margin-top: 1vh;
+    text-decoration: underline;
+    font-family: 'Oswald', sans-serif;
+    animation: aagepiche 3s linear infinite;
+    animation-direction: alternate;
+}
+.raka1 a:hover {
+  color: coral;
+  
+  text-decoration: underline;
+}
+.raka1 a:active
+{
+ color: yellowgreen;
+    text-decoration: none;
+}
+@keyframes aagepiche{
+    from {padding-left: -5%;}
+    to{padding-right: 5%;}
+    
+}
+.bcet1
+{
+ font-size:50px;   
+    
+    
+    
+}
+
+    
+.bcet1 :before
+{ 
+    margin-top: 48px;
+    content: "";
+    position: absolute;
+  
+   
+    left:0;
+    width: 0%;
+    height: 24px;
+    border-bottom:  solid black ;
+    transition: all .4s linear;
+    
+    
+}
+
+.bcet1 :hover:before
+{
+   width: 100%; 
+}
+.bcet2
+{   position: absolute;
+    text-align: center;
+    padding-top: 7%;
+   
+   border-radius: 34% 66% 34% 66% / 49% 57% 43% 51%;
+    background-image: linear-gradient(to top ,aqua,blue);
+    width: 50%;
+    height: 50%;
+    opacity: .4;
+
+}
+.bcet3
+{   
+    float: right;
+    text-align: center;
+    padding-top: 7%;
+   
+   border-radius: 34% 66% 34% 66% / 49% 57% 43% 51%;
+    background-image: linear-gradient(to top ,aqua,blue);
+    width: 50%;
+    height: 50%;
+    opacity: .4;
+
+}
+
+    
